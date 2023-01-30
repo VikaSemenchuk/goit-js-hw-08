@@ -1,6 +1,6 @@
 import Player from '@vimeo/player';
 import throttle from 'lodash.throttle';
-import localStorageService from './localstorage';
+import localStorageService from './localStorage';
 
 const iframe = document.querySelector('iframe');
 const player = new Player(iframe);
