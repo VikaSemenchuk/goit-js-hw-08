@@ -23,3 +23,6 @@ function setCurrentTime() {
     player.setCurrentTime(saveTime);
   }
 }
+
+const seeDuration = player.getDuration();
+console.log(seeDuration);
